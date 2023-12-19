@@ -24,6 +24,7 @@ public class Main {
         ExecutorService executor = Executors.newFixedThreadPool(8);
         ProcessBuilder  p = new ProcessBuilder().command(new String[]{"node", "notNotOddNegCase.js"});
         Process process = p.start();
+        //this line needs to be solved. consumer is wrong
         StreamRead stream = new StreamRead(process.getInputStream(),System.out::println);
         int exit = process.waitFor();
         Future<?> future = executor.submit(stream);

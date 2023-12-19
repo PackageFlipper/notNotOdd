@@ -1,3 +1,8 @@
 import { notNotOdd }  from "../../../../../../../index.js";
 //this needs to become a readable stream
-console.log(notNotOdd(1));
+
+const main = (num) => {
+    return new ReadableStream(notNotOdd(num))
+}
+
+console.log(main(1));
