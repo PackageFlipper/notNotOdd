@@ -1,5 +1,4 @@
-<a href="https://imgflip.com/i/89trzm"><img src="https://i.imgflip.com/89trzm.jpg" title="made at imgflip.com"/></a><div><a href="https://imgflip.com/memegenerator">from Imgflip Meme Generator</a></div>
-
+<a href="https://imgflip.com/i/89ts7o"><img src="https://i.imgflip.com/89ts7o.jpg" title="made at imgflip.com"/></a><div><a href="https://imgflip.com/memegenerator">from Imgflip Meme Generator</a></div>
 # not-not-odd
 
 checks if a given number is not not odd
