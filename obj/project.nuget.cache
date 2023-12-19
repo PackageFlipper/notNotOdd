@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WkWzjs5VOtwQW4RsgjV1k9wULtQCKNt2RDsoP3aOMA+aQfVv2PLcpYpEuI+0ZndDxIJpE0RL1txsxV95pI/dAA==",
+  "success": true,
+  "projectFilePath": "/home/deastl/repos/other-peoples-shit/notNotOdd/notNotOdd.csproj",
+  "expectedPackageFiles": [
+    "/home/deastl/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.0/microsoft.aspnetcore.app.ref.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

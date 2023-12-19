@@ -1,6 +1,19 @@
 
 import isEven from 'not-odd';
 import isOdd from 'not-even';
+
+const util = require('util');
+const exec = util.promisify(require('child_process').exec);
+
+
+const notOddCS = async function(num) {
+  var {stdout, stderr} = await exec('./bin/Release/net8.0/notNotOdd ' + num);
+  if( stdout.includes('odd') ) {
+    return true;
+  }else{
+    return false;
+  }
+}
 const notOdd = num => !isOdd(num);
 const notEven = num => !isEven(num);
 const notNotOdd = num => !notOdd(num);
@@ -413,4 +426,4 @@ export default {
 	not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_even,
 	notNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotOdd,
 	not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_even
-}
+};
