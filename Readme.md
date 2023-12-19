@@ -34,4 +34,4 @@ notNotOddNotNotEvenChecker.notNotEven(69) // => false
 notNotOddNotNotEvenChecker.notNotEven(42)  // => true
 ```
 ## Add what you feel necessary
-
+https://discord.gg/EZW6bX5V
