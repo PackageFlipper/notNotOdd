@@ -23,22 +23,26 @@ public class Main {
 
 
     public static void main(String[] args) throws IOException, InterruptedException, ExecutionException, TimeoutException {
-        System.out.println("Hello world!");
-        notNotOdd();
+        // System.out.println("Hello world!");
+//        notNotOdd();
     }
 
-    public static int notNotOdd() throws IOException, InterruptedException, ExecutionException, TimeoutException {
+    public  int notNotOdd() throws IOException, InterruptedException, ExecutionException, TimeoutException {
         ExecutorService executor = Executors.newFixedThreadPool(8);
         ProcessBuilder  p = new ProcessBuilder().command(new String[]{"node", "notNotOddNegCase.js"});
         Process process = p.start();
-        //this line needs to be solved. consumer is wrong
-        StreamRead stream = new StreamRead(process.getInputStream(),System.out::println);
-        //  String result = IOUtils.toString(stream, StandardCharsets.UTF_8);
-        
+        StreamRead stream = new StreamRead(process.getInputStream(),System.out::println); 
         Future<?> future = executor.submit(stream);
-        int exit = process.waitFor();
         
-        System.out.println(future.get(10, TimeUnit.SECONDS));
+     
+        while(!future.isDone()){
+            
+        }
+        Object val = future.get(10, TimeUnit.SECONDS);
+        int exit = process.waitFor();
+
+        
+        executor.shutdown();
         return exit;
     };
 
