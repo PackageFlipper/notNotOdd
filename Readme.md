@@ -33,4 +33,5 @@ notNotOddNotNotEvenChecker.notNotEven(1)  // => false
 notNotOddNotNotEvenChecker.notNotEven(69) // => false
 notNotOddNotNotEvenChecker.notNotEven(42)  // => true
 ```
+## Add what you feel necessary
 
