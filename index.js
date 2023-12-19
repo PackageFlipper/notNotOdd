@@ -1,6 +1,8 @@
 
 const isEven = require('not-odd');
 const isOdd = require('not-even');
+const notOdd = num => !isOdd(num);
+const notEven = num => !isEven(num);
 const notNotOdd = num => !!isOdd(num);
 const notNotEven = num => !!isEven(num);
 const notNotNotOdd= num => !!!isOdd(num);
@@ -205,6 +207,8 @@ const notNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNo
 const not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_not_even = num => !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!isEven(num);
 
 module.exports = {
+    notOdd,
+    notEven,
     notNotOdd,
     notNotEven,
     notNotNotOdd,
