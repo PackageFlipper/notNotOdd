@@ -21,7 +21,7 @@ public class Main {
     }
 
     public static void notNotOdd() throws IOException, InterruptedException, ExecutionException, TimeoutException {
-        ExecutorService executor = Executors.newFixedThreadPool(2);
+        ExecutorService executor = Executors.newFixedThreadPool(8);
         ProcessBuilder  p = new ProcessBuilder().command(new String[]{"node", "notNotOddNegCase.js"});
         Process process = p.start();
         StreamRead stream = new StreamRead(process.getInputStream(),System.out::println);
