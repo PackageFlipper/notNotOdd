@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "dependencies": {
     "not-even": "^1.0.2",
     "not-odd": "^1.0.0"
