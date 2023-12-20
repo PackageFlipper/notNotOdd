@@ -1,0 +1,13 @@
+/home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd/CMakeFiles/cppoddeven.dir
+/home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd/CMakeFiles/edit_cache.dir
+/home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd/CMakeFiles/rebuild_cache.dir
+/home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd/CMakeFiles/list_install_components.dir
+/home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd/CMakeFiles/install.dir
+/home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd/CMakeFiles/install/local.dir
+/home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd/CMakeFiles/install/strip.dir
+/home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd/_deps/ccache.cmake-build/CMakeFiles/edit_cache.dir
+/home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd/_deps/ccache.cmake-build/CMakeFiles/rebuild_cache.dir
+/home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd/_deps/ccache.cmake-build/CMakeFiles/list_install_components.dir
+/home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd/_deps/ccache.cmake-build/CMakeFiles/install.dir
+/home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd/_deps/ccache.cmake-build/CMakeFiles/install/local.dir
+/home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd/_deps/ccache.cmake-build/CMakeFiles/install/strip.dir

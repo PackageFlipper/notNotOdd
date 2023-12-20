@@ -1,0 +1,77 @@
+{
+  "version": "0.1",
+  "name": "default-executable",
+  "description": "Default executable project template",
+  "keywords": [],
+  "build_dir": "build",
+  "include_dir": "include",
+  "src_dir": "src",
+  "min_cmake_version": "3.0",
+  "dependencies": [],
+  "flags": [],
+  "system_libs": [],
+  "supported_compilers": ["g++", "clang++", "clang", "gcc"],
+  "supported_languages": ["cpp", "c"],
+  "supported_language_versions": ["20","17","14","11"],
+  "supported_toolchains": [
+    "x86_64-linux-gnu",
+    "x86_64-apple-darwin",
+    "x86_64-pc-windows-gnu"
+  ],
+  "default_mode": "Release",
+  "modes": [
+    {
+      "dependencies": [],
+      "flags": [
+        "-O2 "
+      ],
+      "name": "Release"
+    },
+    {
+      "dependencies": [],
+      "flags": [
+        "-g"
+      ],
+      "name": "Debug"
+    },
+    {
+      "dependencies": [],
+      "flags": [
+        "-g"
+      ],
+      "name": "Test"
+    }
+  ],
+  "variables": {
+    "examplebool" : true,
+    "exampleint" : 1,
+    "examplestr" : "hello",
+    "examplefloat" : 1.0,
+    "examplearray" : [
+      "hello",
+      "world"
+    ],
+    "exampleobject" : {
+      "hello" : "world"
+    },
+    "cpack" : {
+      "name" : "MyProject",
+      "vendor" : "MyCompany",
+      "description" : "MyProject does something",
+      "version" : "1.0.0",
+      "contact" : ""
+    },
+    "cpack_ubuntu" : {
+      "depends" : {}
+    }
+  },
+  "prompts": {
+    "example" : {
+      "type" : "bool",
+      "default" : "y",
+      "text" : "Do you like frate?",
+      "lua_callback" : "do_you_like_frate",
+      "required" : true
+    }
+  }
+}
