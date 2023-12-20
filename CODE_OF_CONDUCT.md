@@ -10,6 +10,7 @@
 - We use NVIM BTW
 - We use hipster tiling managers BTW
 - we use thinkpads BTW
+- - we operate as a MLM, recruitment is key: 10 referals = Team Follower
 
 ## Our Standards
 
