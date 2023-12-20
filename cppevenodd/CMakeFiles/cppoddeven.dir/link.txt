@@ -1,0 +1,1 @@
+ccache /usr/bin/c++   -fconstexpr-depth=1200000000 CMakeFiles/cppoddeven.dir/src/main.cpp.o -o build/cppoddeven 

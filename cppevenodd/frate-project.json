@@ -1,0 +1,79 @@
+{
+  "authors": [],
+  "bugs": "null",
+  "build_dir": "build",
+  "cmake_version": "3.28",
+  "compiler": "g++",
+  "default_mode": "Release",
+  "dependencies": [],
+  "description": "",
+  "flags": [
+    "-fconstexpr-depth=1200000000"
+  ],
+  "git": "null",
+  "homepage": "null",
+  "include_dir": "include",
+  "keywords": [],
+  "lang": "cpp",
+  "lang_version": "20",
+  "libs": [],
+  "modes": [
+    {
+      "dependencies": [],
+      "flags": [
+        "-O2 "
+      ],
+      "name": "Release"
+    },
+    {
+      "dependencies": [],
+      "flags": [
+        "-g"
+      ],
+      "name": "Debug"
+    },
+    {
+      "dependencies": [],
+      "flags": [
+        "-g"
+      ],
+      "name": "Test"
+    }
+  ],
+  "name": "cppoddeven",
+  "prompts": {
+    "example": {
+      "default_value": "",
+      "required": true,
+      "type": "bool",
+      "value": "y"
+    }
+  },
+  "src_dir": "src",
+  "toolchains": [],
+  "type": "executable",
+  "variables": {
+    "cpack": {
+      "contact": "",
+      "description": "MyProject does something",
+      "name": "MyProject",
+      "vendor": "MyCompany",
+      "version": "1.0.0"
+    },
+    "cpack_ubuntu": {
+      "depends": {}
+    },
+    "examplearray": [
+      "hello",
+      "world"
+    ],
+    "examplebool": true,
+    "examplefloat": 1.0,
+    "exampleint": 1,
+    "exampleobject": {
+      "hello": "world"
+    },
+    "examplestr": "hello"
+  },
+  "version": "0.0.1"
+}
