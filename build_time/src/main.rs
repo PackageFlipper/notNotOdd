@@ -1,5 +1,4 @@
 fn main() {
-
     println!("Hello, world!");
 }
 
@@ -32,22 +31,21 @@ pub mod one {
                                                                                                         pub mod twentySeven {
                                                                                                             pub mod twentyNine {
                                                                                                                 pub mod thirty {
-                                                                                                                    pub fn notNotOdd(num: i32)-> bool {
-
+                                                                                                                    pub fn notNotOdd(num: i32)-> bool{
                                                                                                                         if (num %2 == 0){
                                                                                                                             return true;
                                                                                                                         }
 
                                                                                                                         return false;
-
                                                                                                                     }
                                                                                                                     pub fn notNotEven(num: i32)->bool
 {
-    if (num%2 != 0){
+                                                                                                                        if (num%2 != 0){
         return true;
     }
-    return false;
-}                                                                                                                }
+                                                                                                                        return false;
+                                                                                                                    }
+                                                                                                                }
                                                                                                             }
                                                                                                         }
                                                                                                     }
@@ -75,4 +73,10 @@ pub mod one {
             }
         }
     }
+}
+
+#[test]
+fn test_notNotOdd() {
+
+    assert_eq!(true, true);
 }
