@@ -1,3 +1,5 @@
+<img stc="https://cdn.discordapp.com/attachments/837800765602005051/1187131696898900080/lighthouse-score.png?ex=6595c58c&is=6583508c&hm=7777b5f154ff37856f97a5def7d96db53ca6180896f6512a25f37b650bf91eb4&"/>
+
 <a href="https://imgflip.com/i/89ts7o"><img src="https://i.imgflip.com/89ts7o.jpg" title="made at imgflip.com"/></a><div><a href="https://imgflip.com/memegenerator">from Imgflip Meme Generator</a></div>
 # not-not-odd  🚀
 ![coverage](https://img.shields.io/badge/coverage-80%25-yellowgreen)
