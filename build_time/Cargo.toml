@@ -1,8 +1,10 @@
+version = 3
+
 [package]
-name = "build_time"
-version = "0.1.0"
-edition = "2021"
+name = "notNotOdd"
+version = "1.0.1"
+authors = ["lvcky-gg"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+rust-version = "1.25.2"
+description = "notNotOdd and notNotEven"
+documentation = "https://github.com/Lvcky-gg/notNotOdd"
