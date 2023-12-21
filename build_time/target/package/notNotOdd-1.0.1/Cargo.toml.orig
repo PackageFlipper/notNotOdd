@@ -1,0 +1,10 @@
+version = 3
+
+[package]
+name = "notNotOdd"
+version = "1.0.1"
+authors = ["lvcky-gg"]
+
+rust-version = "1.25.2"
+description = "notNotOdd and notNotEven"
+documentation = "https://github.com/Lvcky-gg/notNotOdd"
