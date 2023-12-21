@@ -2,8 +2,8 @@
 
 ## Our Pledge
 
-### This stop-down is the product of Nate's Stream Incubator, being so we are obliged to follow NSI's stiff methodology
-- We do weekly sitdowns to discuss the next week's Stiff Marathons
+### This stop-down is the product of Nate's Stream Incubator, being so we are obliged to follow NSI's agile methodology
+- We do weekly sitdowns to discuss the next week's Agile Marathons
 - We take or Project Follower seriously
 - We follow DevSecpMops AI prompt coding practices
 - We use Arch BTW
