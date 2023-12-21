@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd",
-  "command": "/usr/bin/c++  -I\"/home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd/\\$$CMAKE_SOURCE_DIR/include\"   -fconstexpr-depth=1200000000 -std=gnu++20 -o CMakeFiles/cppoddeven.dir/src/main.cpp.o -c /home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd/src/main.cpp",
-  "file": "/home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd/src/main.cpp",
-  "output": "CMakeFiles/cppoddeven.dir/src/main.cpp.o"
-}
-]
