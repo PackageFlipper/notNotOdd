@@ -58,5 +58,7 @@ notNotOddNotNotEvenChecker.notNotEven(42)  // => true
 * https://discord.gg/9EBfMjYm
 
 
+<img src="https://nighthacks.com/jag/bio/JAG2017.jpg" />
+
 
 ⠀⠀⠀
