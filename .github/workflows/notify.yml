@@ -1,0 +1,18 @@
+name: Notify
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  create_issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Issue
+        uses: imjohnbo/issue-bot@v3
+        with:
+          title: 'Hey theres new commits on main'
+          body: 'you should check it out.'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
