@@ -28,22 +28,22 @@ public class Main {
     }
 
     public  int notNotOdd() throws IOException, InterruptedException, ExecutionException, TimeoutException {
-        ExecutorService executor = Executors.newFixedThreadPool(8);
-        ProcessBuilder  p = new ProcessBuilder().command(new String[]{"node", "notNotOddNegCase.js"});
-        Process process = p.start();
-        StreamRead stream = new StreamRead(process.getInputStream(),System.out::println); 
-        Future<?> future = executor.submit(stream);
+        ExecutorService 𓀭 = Executors.newFixedThreadPool(8);
+        ProcessBuilder  𓆸 = new ProcessBuilder().command(new String[]{"node", "notNotOddNegCase.js"});
+        Process 𓀀 = 𓆸.start();
+        StreamRead 𓆣 = new StreamRead(𓀀.getInputStream(),System.out::println);
+        Future<?> future = 𓀭.submit(𓆣);
         
      
         while(!future.isDone()){
             
         }
-        Object val = future.get(10, TimeUnit.SECONDS);
-        int exit = process.waitFor();
+        Object 𓀬 = future.get(10, TimeUnit.SECONDS);
+        int 𓀫 = 𓀀.waitFor();
 
         
-        executor.shutdown();
-        return exit;
+        𓀭.shutdown();
+        return 𓀫;
     };
 
     private static class StreamRead implements Runnable {

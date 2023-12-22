@@ -31,19 +31,364 @@ pub mod one {
                                                                                                         pub mod twentySeven {
                                                                                                             pub mod twentyNine {
                                                                                                                 pub mod thirty {
-                                                                                                                    pub fn notNotOdd(num: i32)-> bool{
-                                                                                                                        if (num %2 == 0){
-                                                                                                                            return true;
+                                                                                                                    pub fn notOdd(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 != 0 {
+                                                                                                                            𓀀 = true;
                                                                                                                         }
-
-                                                                                                                        return false;
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
                                                                                                                     }
-                                                                                                                    pub fn notNotEven(num: i32)->bool
-{
-                                                                                                                        if (num%2 != 0){
-        return true;
-    }
-                                                                                                                        return false;
+
+                                                                                                                    pub fn NotEven(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 == 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotOdd(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 != 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotEven(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 == 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotOdd(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 != 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotEven(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 == 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotOdd(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 != 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotEven(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 == 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotOdd(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 != 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotEven(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 == 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotOdd(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 != 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotEven(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 == 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotOdd(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 != 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotNotEven(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 == 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotNotNotOdd(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 != 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotNotNotNotEven(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 == 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotOdd(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 != 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotEven(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 == 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotOdd(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 != 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotEven(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 == 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotOdd(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 != 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotEven(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 == 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotOdd(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 != 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotEven(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 == 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotOdd(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 != 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotEven(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 == 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotOdd(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 != 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotEven(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 == 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotOdd(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 != 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
+                                                                                                                    }
+
+                                                                                                                    pub fn NotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotNotEven(num: i32) -> bool{
+                                                                                                                        let mut 𓀀 = false;
+                                                                                                                        if num % 2 == 0 {
+                                                                                                                            𓀀 = true;
+                                                                                                                        }
+                                                                                                                        if 𓀀 {
+                                                                                                                            return true;
+                                                                                                                        } else {
+                                                                                                                            return false;
+                                                                                                                        }
                                                                                                                     }
                                                                                                                 }
                                                                                                             }
@@ -77,6 +422,5 @@ pub mod one {
 
 #[test]
 fn test_notNotOdd() {
-
     assert_eq!(true, true);
 }

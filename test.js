@@ -1,8 +1,8 @@
-import {spareMemory} from './index.js';
+import {𓀬} from './index.js';
 
 
 
-const someOtherMemory = spareMemory;
+const 𓆸 = 𓀬;
 
 
 while(true){}

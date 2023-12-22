@@ -1,0 +1,4 @@
+Cannot generate into /home/notarin/RustroverProjects/notNotOdd/cppevenodd
+It is already used for project /home/deastl/repos/other-peoples-shit/notNotOdd/cppevenodd
+
+Please either delete it manually or select another generation directory
