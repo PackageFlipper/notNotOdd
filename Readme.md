@@ -24,6 +24,15 @@
 
 👽👽can also check if a number is not not even👽👽
 
+## what we do
+- Cloud 
+- Machine Learning  
+- Robotics
+- Digital Marketing
+- Data Science
+- AI
+- web 3
+- Devmops
 
 ## Install ☠️
 
