@@ -65,5 +65,11 @@ notNotOddNotNotEvenChecker.notNotEven(42)  // => true
 ## Add what you feel necessary
 * Note: there are intentional issues in certain parts of the implementation that don't affect current builds. These are meant as a way for people to practice.
 * https://discord.gg/9EBfMjYm
+# NotNotOdd Foundation
+- Founder: lvcky-gg
+- CEO: deastl
+- CTO: The Primagen
+- CFO: lvcky-gg
+- Senior Vice President of sales: lscproule
 
 
