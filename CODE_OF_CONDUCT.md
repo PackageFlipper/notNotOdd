@@ -1,5 +1,8 @@
 # Contributor Covenant Code of Conduct
 
+### Malevolent Dictator For Life
+- lvcky-gg
+
 ## Our Pledge
 
 ### This stop-down is the product of Nate's Stream Incubator, being so we are obliged to follow NSI's agile methodology
