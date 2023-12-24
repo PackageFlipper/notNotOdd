@@ -2,13 +2,13 @@
 
 <a href="https://imgflip.com/i/89ts7o"><img src="https://i.imgflip.com/89ts7o.jpg" title="made at imgflip.com"/></a><div><a href="https://imgflip.com/memegenerator">from Imgflip Meme Generator</a></div>
 # not-not-odd  🚀
-![coverage](https://img.shields.io/badge/coverage-80%25-yellowgreen)
+![coverage](https://img.shields.io/badge/coverage-69%25-yellowgreen)
 ![version](https://img.shields.io/badge/version-1.2.3-blue)
 ![gem](https://img.shields.io/badge/gem-2.2.0-blue)
 ![dependencies](https://img.shields.io/badge/dependencies-out%20of%20date-orange)
 ![codacy](https://img.shields.io/badge/codacy-B-green)
 ![semver](https://img.shields.io/badge/semver-2.0.0-blue)
-![receives](https://img.shields.io/badge/receives-2.00%20USD%2Fweek-yellow)
+![receives](https://img.shields.io/badge/receives-69,420.00%20USD%2Fweek-yellow)
 ![downloads](https://img.shields.io/badge/downloads-13k%2Fmonth-brightgreen)
 ![rating](https://img.shields.io/badge/rating-★★★★☆-brightgreen)
 ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
