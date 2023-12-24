@@ -71,6 +71,6 @@ notNotOddNotNotEvenChecker.notNotEven(42)  // => true
 - CEO: deastl
 - CTO: The Primagen
 - CFO: lvcky-gg
-- Senior Vice President of sales: lscproule
+- Vice President to the Vice President: lsproule
 
 
