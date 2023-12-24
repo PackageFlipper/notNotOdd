@@ -67,6 +67,7 @@ notNotOddNotNotEvenChecker.notNotEven(42)  // => true
 * https://discord.gg/9EBfMjYm
 # NotNotOdd Foundation
 - Founder: lvcky-gg
+- MDFL: lvcky-gg
 - CEO: deastl
 - CTO: The Primagen
 - CFO: lvcky-gg
