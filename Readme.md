@@ -58,5 +58,3 @@ notNotOddNotNotEvenChecker.notNotEven(42)  // => true
 * https://discord.gg/9EBfMjYm
 
 
-
-⠀⠀⠀
