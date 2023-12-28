@@ -12,13 +12,23 @@
 ![downloads](https://img.shields.io/badge/downloads-13k%2Fmonth-brightgreen)
 ![rating](https://img.shields.io/badge/rating-★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★-brightgreen)
 ![uptime](https://img.shields.io/badge/uptime-100.420%25-brightgreen)
-[![GitHub issues by-label](https://img.shields.io/github/issues/badges/shields/good%20first%20issue)](https://github.com/Lvcky-gg/notNotOdd/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+[![GitHub issues by-label](https://img.shields.io/github/issues/badges/shields/good%20first%20issue)](https://github.com/PackageFlipper/notNotOdd/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 [![discord](https://img.shields.io/discord/123?logo=discord&amp;label=discord)](https://discord.gg/9EBfMjYm)
 [![npm](https://img.shields.io/npm/v/badges.svg)](https://www.npmjs.com/package/not-not-odd)
 ![crypto](https://img.shields.io/badge/crypto-donate-yellow.svg)
 ![paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)
 ![oc](https://img.shields.io/badge/open%20collective-donate-yellow.svg)
 ![bmac](https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg)
+[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/PackageFlipper/notNotOdd/main)](https://github.com/PackageFlipper/notNotOdd)
+[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/PackageFlipper/notNotOdd/main)](https://github.com/PackageFlipper/notNotOdd)
+[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/PackageFlipper/notNotOdd/main)](https://github.com/PackageFlipper/notNotOdd)
+[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/PackageFlipper/notNotOdd/main)](https://github.com/PackageFlipper/notNotOdd)
+[![GitHub contributors](https://img.shields.io/github/contributors/PackageFlipper/notNotOdd)](https://github.com/PackageFlipper/notNotOdd)
+![Static Badge](https://img.shields.io/badge/hotel-trivago-blue)
+[![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/PackageFlipper/notNotOdd)](https://github.com/PackageFlipper/notNotOdd)
+[![GitHub language count](https://img.shields.io/github/languages/count/PackageFlipper/notNotOdd)](https://github.com/PackageFlipper/notNotOdd)
+[![GitHub top language](https://img.shields.io/github/languages/top/PackageFlipper/notNotOdd)](https://github.com/PackageFlipper/notNotOdd)
+
 
 👽👽checks if a given number is not not odd👽👽
 
