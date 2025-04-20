@@ -123,8 +123,7 @@ notNotOddNotNotEvenChecker.notNotEven(69) // => false
 notNotOddNotNotEvenChecker.notNotEven(42)  // => true
 ```
 ## Add what you feel necessary
-* Note: there are intentional issues in certain parts of the implementation that don't affect current builds. These are meant as a way for people to practice.
-* https://discord.gg/9EBfMjYm
+
 # NotNotOdd Foundation
 - Founder: lvcky-gg
 - MDFL: lvcky-gg
