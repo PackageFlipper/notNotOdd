@@ -38,17 +38,11 @@ int main(int argc, char** argv){
       return 1;
     }
 
-    if(inputNumber > numberOfOdds){
-      std::cout << "Invalid input can't accept numbers greater than: " << numberOfOdds << std::endl;
-      return 1;
+    if(inputNumber % 2 == 1){
+      std::cout << "odd" << std::endl;
+    } else {
+      std::cout << "even" << std::endl;
     }
-    for(size_t curr: oddNumbers){
-      if(curr == inputNumber){
-        std::cout << "odd" << std::endl;
-        return 0;
-      }
-    }
-    std::cout << "even" << std::endl;
   }
 
   
