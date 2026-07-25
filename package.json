@@ -2,6 +2,7 @@
   "type": "module",
   "dependencies": {
     "not-even": "^1.0.2",
-    "not-odd": "^1.0.0"
+    "not-odd": "^1.0.0",
+    "openai": "^6.49.0"
   }
 }
